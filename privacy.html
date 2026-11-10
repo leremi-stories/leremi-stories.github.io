@@ -19,7 +19,7 @@
   .lang { display:flex; gap:8px; }
   .lang button { font:inherit; font-weight:700; background:var(--dusk); color:var(--moon); border:1px solid var(--line); border-radius:999px; padding:6px 14px; cursor:pointer; }
   .lang button[aria-pressed="true"] { background:var(--lamp); color:#2a1c05; border-color:var(--lamp); }
-  [data-l] { display:none; } body.ru [data-l="ru"], body.en [data-l="en"], body.ar [data-l="ar"] { display:block; }
+  [data-l] { display:none; } body.ru [data-l="ru"], body.en [data-l="en"], body.ar [data-l="ar"], body.es [data-l="es"] { display:block; }
   body.ar { font-family: "SF Arabic","Geeza Pro","Noto Sans Arabic",sans-serif; } body.ar h1 { font-family: inherit; font-weight: 700; } body.ar ul { padding-left: 0; padding-right: 20px; }
 </style>
 </head>
@@ -29,17 +29,18 @@
     <button data-set="ru" aria-pressed="true">Русский</button>
     <button data-set="en" aria-pressed="false">English</button>
     <button data-set="ar" aria-pressed="false">العربية</button>
+    <button data-set="es" aria-pressed="false">Español</button>
   </div>
 
   <!-- ================= RU ================= -->
   <section data-l="ru">
     <h1>Политика конфиденциальности</h1>
-    <p class="muted">Приложение LeReMi — сказки перед сном. Действует с 28 октября 2026 г.</p>
+    <p class="muted">Приложение LeReMi — сказки перед сном. Действует с 9 ноября 2026 г.</p>
 
     <div class="box"><strong>Коротко:</strong> LeReMi не собирает, не передаёт и не продаёт никакие данные — ни о детях, ни о родителях. В приложении нет рекламы, аналитики и отслеживания. Всё, что вы вводите, остаётся только на вашем устройстве.</div>
 
     <h2>Какие данные хранятся в приложении</h2>
-    <p>Чтобы сказки были персональными, родитель может создать профиль ребёнка: имя, формы имени для сказок, пол (чтобы правильно склонять слова), возрастной диапазон и нарисованный аватар. Также приложение запоминает настройки — язык, голос озвучки и последнюю открытую сказку — и награды ребёнка: карточки чудес, звёздочки и наклейки.</p>
+    <p>Чтобы сказки были персональными, родитель может создать профиль ребёнка: имя, формы имени для сказок, пол (чтобы правильно склонять слова), возрастной диапазон и нарисованный аватар. Также приложение запоминает настройки — язык, голос озвучки и последнюю открытую сказку — и награды ребёнка: карточки чудес, звёздочки и наклейки, а также прогресс в LeReMi Words. Если родитель включит напоминание, приложение покажет локальное уведомление на этом устройстве — оно не использует интернет и ничего не передаёт.</p>
     <p>Эти данные хранятся <strong>только в памяти вашего устройства</strong>. Они не отправляются нам или третьим лицам, у нас нет серверов, куда они могли бы попасть. Фотографии детей приложение не запрашивает и не использует.</p>
 
     <h2>Чего в приложении нет</h2>
@@ -55,7 +56,7 @@
     <p>Если в приложении доступна подписка, оплата проходит полностью через Apple (App Store). Мы не получаем и не храним данные карты, имя или адрес плательщика — Apple сообщает приложению только о том, активна ли подписка. Управлять подпиской и отменить её можно в настройках iPhone: Настройки → [ваше имя] → Подписки. Обработка платежей регулируется <a href="https://www.apple.com/legal/privacy/">политикой конфиденциальности Apple</a>.</p>
 
     <h2>Защита детей</h2>
-    <p>LeReMi создано для детей 3–6 лет. Разделы для взрослых (настройки, профили, покупки) закрыты родительским замком — простым заданием, которое может решить только взрослый. Мы соблюдаем требования App Store для детских приложений, а также принципы законов о защите детских данных (COPPA в США, GDPR в ЕС и Великобритании): мы не собираем персональные данные детей.</p>
+    <p>LeReMi создано для детей до 6 лет. Разделы для взрослых (настройки, профили, покупки) закрыты родительским замком — простым заданием, которое может решить только взрослый. Мы соблюдаем требования App Store для детских приложений, а также принципы законов о защите детских данных (COPPA в США, GDPR в ЕС и Великобритании): мы не собираем персональные данные детей.</p>
 
     <h2>Как удалить данные</h2>
     <p>Профиль ребёнка можно удалить в разделе «Родителям» → профиль → «Удалить профиль». Чтобы удалить все данные, удалите приложение с устройства — вместе с ним удалится всё, что в нём хранилось.</p>
@@ -70,12 +71,12 @@
   <!-- ================= EN ================= -->
   <section data-l="en">
     <h1>Privacy Policy</h1>
-    <p class="muted">LeReMi — bedtime stories app. Effective October 28, 2026.</p>
+    <p class="muted">LeReMi — bedtime stories app. Effective November 9, 2026.</p>
 
     <div class="box"><strong>In short:</strong> LeReMi does not collect, share or sell any data — neither about children nor about parents. There are no ads, no analytics and no tracking. Everything you enter stays on your device only.</div>
 
     <h2>Data stored in the app</h2>
-    <p>To personalize stories, a parent can create a child profile: a first name, name forms used in the stories, gender (for correct grammar), an age range and a drawn avatar. The app also remembers settings — language, narrator voice and the last story opened, as well as the child’s rewards: wonder cards, stars and stickers.</p>
+    <p>To personalize stories, a parent can create a child profile: a first name, name forms used in the stories, gender (for correct grammar), an age range and a drawn avatar. The app also remembers settings — language, narrator voice and the last story opened, as well as the child’s rewards: wonder cards, stars and stickers, and progress in LeReMi Words. If a parent turns on the reminder, the app shows a local notification on this device; it doesn’t use the internet and sends nothing anywhere.</p>
     <p>This information is stored <strong>only on your device</strong>. It is never sent to us or to any third party — we have no servers it could be sent to. The app never asks for or uses photos of children.</p>
 
     <h2>What the app does not have</h2>
@@ -88,10 +89,10 @@
     </ul>
 
     <h2>Purchases and subscription</h2>
-    <p>If a subscription is offered in the app, payment is handled entirely by Apple (App Store). We never receive or store card details, the payer's name or address — Apple only tells the app whether a subscription is active. You can manage or cancel a subscription in iPhone Settings → [your name] → Subscriptions. Payments are governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    <p>If a subscription is offered in the app, payment is handled entirely by Apple (App Store). We never receive or store card details, the payer's name or address — Apple only tells the app whether a subscription is active. You can manage or cancel a subscription in Settings → [your name] → Subscriptions. Payments are governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
 
     <h2>Children's privacy</h2>
-    <p>LeReMi is made for children aged 3 to 6. Grown-up areas (settings, profiles, purchases) are protected by a parental gate — a simple task only an adult can solve. We follow the App Store requirements for Kids apps and the principles of children's privacy laws (COPPA in the US, GDPR in the EU and UK): we do not collect personal information from children.</p>
+    <p>LeReMi is made for children under 6. Grown-up areas (settings, profiles, purchases) are protected by a parental gate — a simple task only an adult can solve. We follow the App Store requirements for Kids apps and the principles of children's privacy laws (COPPA in the US, GDPR in the EU and UK): we do not collect personal information from children.</p>
 
     <h2>Deleting data</h2>
     <p>A child profile can be deleted in Parents → profile → "Delete profile". To delete all data, delete the app from your device — everything stored in it is removed with it.</p>
@@ -106,10 +107,10 @@
   <!-- ================= AR ================= -->
   <section data-l="ar" dir="rtl" lang="ar">
     <h1>سياسة الخصوصية</h1>
-    <p class="muted">تطبيق LeReMi — حكايات قبل النوم. سارية اعتبارًا من 28 أكتوبر 2026.</p>
+    <p class="muted">تطبيق LeReMi — حكايات قبل النوم. سارية اعتبارًا من 9 نوفمبر 2026.</p>
     <div class="box"><strong>باختصار:</strong> لا يجمع LeReMi أي بيانات ولا يشاركها ولا يبيعها — لا عن الأطفال ولا عن الوالدين. لا توجد إعلانات ولا تحليلات ولا تتبّع. كل ما تُدخله يبقى على جهازك فقط.</div>
     <h2>البيانات المحفوظة في التطبيق</h2>
-    <p>لجعل الحكايات شخصية، يمكن لأحد الوالدين إنشاء ملف للطفل: الاسم، وصيغ الاسم في الحكايات، والجنس (لضبط القواعد اللغوية)، والفئة العمرية، وصورة مرسومة. ويتذكّر التطبيق أيضًا الإعدادات: اللغة، وصوت الراوي، وآخر حكاية مفتوحة. كما يحفظ مكافآت الطفل: بطاقات العجائب والنجوم والملصقات.</p>
+    <p>لجعل الحكايات شخصية، يمكن لأحد الوالدين إنشاء ملف للطفل: الاسم، وصيغ الاسم في الحكايات، والجنس (لضبط القواعد اللغوية)، والفئة العمرية، وصورة مرسومة. ويتذكّر التطبيق أيضًا الإعدادات: اللغة، وصوت الراوي، وآخر حكاية مفتوحة. كما يحفظ مكافآت الطفل: بطاقات العجائب والنجوم والملصقات، وتقدّمه في LeReMi Words. وإذا فعّل أحد الوالدين التذكير، يعرض التطبيق إشعارًا محليًّا على هذا الجهاز فقط، من دون إنترنت ومن دون إرسال أي بيانات.</p>
     <p>تُحفظ هذه المعلومات <strong>على جهازك فقط</strong>، ولا تُرسل إلينا أو إلى أي طرف ثالث — فليس لدينا خوادم تُرسل إليها. لا يطلب التطبيق صور الأطفال ولا يستخدمها.</p>
     <h2>ما لا يحتويه التطبيق</h2>
     <ul>
@@ -120,9 +121,9 @@
       <li>المحادثات أو التواصل مع أشخاص آخرين أو روابط لمواقع خارجية للأطفال.</li>
     </ul>
     <h2>المشتريات والاشتراك</h2>
-    <p>إذا توفّر اشتراك في التطبيق، فإن الدفع يتمّ بالكامل عبر Apple (App Store). نحن لا نتلقّى بيانات البطاقة أو اسم الدافع أو عنوانه ولا نحفظها — تُخبر Apple التطبيق فقط ما إذا كان الاشتراك فعّالًا. يمكنك إدارة الاشتراك أو إلغاؤه من إعدادات iPhone ← [اسمك] ← الاشتراكات. تخضع المدفوعات <a href="https://www.apple.com/legal/privacy/">لسياسة خصوصية Apple</a>.</p>
+    <p>إذا توفّر اشتراك في التطبيق، فإن الدفع يتمّ بالكامل عبر Apple (App Store). نحن لا نتلقّى بيانات البطاقة أو اسم الدافع أو عنوانه ولا نحفظها — تُخبر Apple التطبيق فقط ما إذا كان الاشتراك فعّالًا. يمكنك إدارة الاشتراك أو إلغاؤه من «الإعدادات» ← [اسمك] ← «الاشتراكات». تخضع المدفوعات <a href="https://www.apple.com/legal/privacy/">لسياسة خصوصية Apple</a>.</p>
     <h2>خصوصية الأطفال</h2>
-    <p>صُمّم LeReMi للأطفال من 3 إلى 6 سنوات. الأقسام المخصّصة للكبار (الإعدادات، الملفات، المشتريات) محميّة ببوابة للوالدين — مهمة بسيطة لا يحلّها إلا شخص بالغ. نلتزم بمتطلبات App Store لتطبيقات الأطفال وبمبادئ قوانين حماية بيانات الأطفال (COPPA في الولايات المتحدة، وGDPR في الاتحاد الأوروبي والمملكة المتحدة): نحن لا نجمع معلومات شخصية من الأطفال.</p>
+    <p>صُمّم LeReMi للأطفال دون السادسة. الأقسام المخصّصة للكبار (الإعدادات، الملفات، المشتريات) محميّة ببوابة للوالدين — مهمة بسيطة لا يحلّها إلا شخص بالغ. نلتزم بمتطلبات App Store لتطبيقات الأطفال وبمبادئ قوانين حماية بيانات الأطفال (COPPA في الولايات المتحدة، وGDPR في الاتحاد الأوروبي والمملكة المتحدة): نحن لا نجمع معلومات شخصية من الأطفال.</p>
     <h2>حذف البيانات</h2>
     <p>يمكن حذف ملف الطفل من قسم «للوالدين» ← الملف ← «حذف الملف». ولحذف كل البيانات، احذف التطبيق من جهازك — وسيُحذف معه كل ما كان محفوظًا فيه.</p>
     <h2>التغييرات على هذه السياسة</h2>
@@ -130,13 +131,49 @@
     <h2>تواصل معنا</h2>
     <p>أسئلة الخصوصية: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></p>
   </section>
+
+  <!-- ================= ES ================= -->
+  <section data-l="es">
+    <h1>Política de privacidad</h1>
+    <p class="muted">LeReMi, app de cuentos para dormir. Vigente desde el 9 de noviembre de 2026.</p>
+
+    <div class="box"><strong>En resumen:</strong> LeReMi no recopila, comparte ni vende ningún dato, ni de los niños ni de los papás. No hay anuncios, ni analíticas, ni rastreo. Todo lo que escribes se queda solo en tu dispositivo.</div>
+
+    <h2>Datos que se guardan en la app</h2>
+    <p>Para personalizar los cuentos, un adulto puede crear el perfil de un niño o una niña: el nombre, las formas del nombre que se usan en los cuentos, el género (para la gramática correcta), un rango de edad y un avatar dibujado. La app también recuerda los ajustes —idioma, voz del narrador y el último cuento abierto—, las recompensas del niño (tarjetas de maravillas, estrellas y stickers) y el progreso en LeReMi Words. Si un adulto activa el recordatorio, la app muestra una notificación local en este dispositivo; no usa internet ni envía nada.</p>
+    <p>Esta información se guarda <strong>solo en tu dispositivo</strong>. Nunca se nos envía a nosotros ni a terceros: no tenemos servidores a los que enviarla. La app nunca pide ni usa fotos de niños.</p>
+
+    <h2>Lo que la app no tiene</h2>
+    <ul>
+      <li>registro ni cuentas de usuario;</li>
+      <li>anuncios ni identificadores de publicidad;</li>
+      <li>analíticas, contadores ni rastreo;</li>
+      <li>acceso a la cámara, el micrófono, los contactos o la ubicación;</li>
+      <li>chats, contacto con otras personas ni enlaces a sitios externos para niños.</li>
+    </ul>
+
+    <h2>Compras y suscripción</h2>
+    <p>Si la app ofrece una suscripción, el pago lo gestiona por completo Apple (App Store). Nunca recibimos ni guardamos datos de la tarjeta, ni el nombre o la dirección de quien paga: Apple solo le dice a la app si la suscripción está activa. Puedes administrar o cancelar la suscripción en Configuración → [tu nombre] → Suscripciones. Los pagos se rigen por la <a href="https://www.apple.com/legal/privacy/">Política de privacidad de Apple</a>.</p>
+
+    <h2>Privacidad de los niños</h2>
+    <p>LeReMi está hecha para niños menores de 6 años. Las secciones para adultos (ajustes, perfiles, compras) están protegidas con un control parental: una tarea sencilla que solo un adulto puede resolver. Cumplimos los requisitos de la App Store para apps infantiles y los principios de las leyes de privacidad infantil (COPPA en EE. UU., GDPR en la UE y el Reino Unido): no recopilamos información personal de los niños.</p>
+
+    <h2>Borrar los datos</h2>
+    <p>El perfil de un niño se puede borrar en Papás → perfil → «Borrar perfil». Para borrar todos los datos, elimina la app de tu dispositivo: todo lo que guarda se borra con ella.</p>
+
+    <h2>Cambios en esta política</h2>
+    <p>Si cambiamos esta política (por ejemplo, al agregar una función nueva), la versión actualizada aparecerá en esta página con una fecha nueva. No empezaremos a recopilar datos sin avisar y, cuando sea necesario, sin el consentimiento de los papás.</p>
+
+    <h2>Contacto</h2>
+    <p>Preguntas sobre privacidad: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></p>
+  </section>
 </main>
 <script>
   const set = l => { document.body.className = l; document.documentElement.lang = l;
     document.querySelectorAll('[data-set]').forEach(b => b.setAttribute('aria-pressed', b.dataset.set === l)); };
   document.querySelectorAll('[data-set]').forEach(b => b.onclick = () => set(b.dataset.set));
   const q = new URLSearchParams(location.search).get('lang') || (navigator.language || 'ru').slice(0, 2);
-  set(['ru','en','ar'].includes(q) ? q : 'ru');
+  set(['ru','en','ar','es'].includes(q) ? q : 'en');
 </script>
 </body>
 </html>

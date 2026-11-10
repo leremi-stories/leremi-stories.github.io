@@ -19,7 +19,7 @@
   .lang { display:flex; gap:8px; }
   .lang button { font:inherit; font-weight:700; background:var(--dusk); color:var(--moon); border:1px solid var(--line); border-radius:999px; padding:6px 14px; cursor:pointer; }
   .lang button[aria-pressed="true"] { background:var(--lamp); color:#2a1c05; border-color:var(--lamp); }
-  [data-l] { display:none; } body.ru [data-l="ru"], body.en [data-l="en"], body.ar [data-l="ar"] { display:block; }
+  [data-l] { display:none; } body.ru [data-l="ru"], body.en [data-l="en"], body.ar [data-l="ar"], body.es [data-l="es"] { display:block; }
   body.ar { font-family: "SF Arabic","Geeza Pro","Noto Sans Arabic",sans-serif; } body.ar h1 { font-family: inherit; font-weight: 700; } body.ar ul { padding-left: 0; padding-right: 20px; }
 </style>
 </head>
@@ -29,11 +29,12 @@
     <button data-set="ru" aria-pressed="true">Русский</button>
     <button data-set="en" aria-pressed="false">English</button>
     <button data-set="ar" aria-pressed="false">العربية</button>
+    <button data-set="es" aria-pressed="false">Español</button>
   </div>
 
   <section data-l="ru">
     <h1>Поддержка LeReMi</h1>
-    <p class="muted">Сказки перед сном для детей 3–6 лет. Мы отвечаем на письма в течение 1–2 рабочих дней.</p>
+    <p class="muted">Сказки перед сном для детей до 6 лет. Мы отвечаем на письма в течение 1–2 рабочих дней.</p>
     <div class="box">Написать нам: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></div>
 
     <h2>Как открыть раздел «Родителям»?</h2>
@@ -49,7 +50,7 @@
     <p>Нет. Все сказки, картинки и озвучка уже внутри приложения и работают в самолёте и в дороге.</p>
 
     <h2>Как управлять подпиской или отменить её?</h2>
-    <p>Подписка оформляется через Apple. Отменить или изменить её можно в Настройки iPhone → [ваше имя] → Подписки → LeReMi. Если вы переустановили приложение или сменили телефон, нажмите «Восстановить покупки» в разделе «Родителям».</p>
+    <p>Подписка оформляется через Apple. Отменить или изменить её можно в Настройки → [ваше имя] → Подписки → LeReMi. Если вы переустановили приложение или сменили телефон, нажмите «Восстановить покупки» в разделе «Родителям».</p>
 
     <h2>Как удалить данные?</h2>
     <p>Все данные хранятся только на вашем устройстве. Удалите профиль в разделе «Родителям» или удалите приложение целиком. Подробнее — в <a href="privacy.html?lang=ru">политике конфиденциальности</a>.</p>
@@ -57,7 +58,7 @@
 
   <section data-l="en">
     <h1>LeReMi Support</h1>
-    <p class="muted">Bedtime stories for children aged 3–6. We reply within 1–2 business days.</p>
+    <p class="muted">Bedtime stories for children under 6. We reply within 1–2 business days.</p>
     <div class="box">Email us: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></div>
 
     <h2>How do I open the Parents section?</h2>
@@ -73,7 +74,7 @@
     <p>No. All stories, pictures and narration are inside the app and work on a plane or on the road.</p>
 
     <h2>How do I manage or cancel my subscription?</h2>
-    <p>Subscriptions are handled by Apple. Cancel or change it in iPhone Settings → [your name] → Subscriptions → LeReMi. After reinstalling or switching phones, tap "Restore purchases" in the Parents section.</p>
+    <p>Subscriptions are handled by Apple. Cancel or change it in Settings → [your name] → Subscriptions → LeReMi. After reinstalling or switching phones, tap "Restore purchases" in the Parents section.</p>
 
     <h2>How do I delete my data?</h2>
     <p>All data is stored only on your device. Delete a profile in the Parents section or delete the app. See our <a href="privacy.html?lang=en">Privacy Policy</a>.</p>
@@ -81,20 +82,44 @@
 
   <section data-l="ar" dir="rtl" lang="ar">
     <h1>دعم LeReMi</h1>
-    <p class="muted">حكايات قبل النوم للأطفال من 3 إلى 6 سنوات. نردّ على الرسائل خلال يوم أو يومَي عمل.</p>
+    <p class="muted">حكايات قبل النوم للأطفال دون السادسة. نردّ على الرسائل خلال يوم أو يومَي عمل.</p>
     <div class="box">راسلنا: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></div>
     <h2>كيف أفتح قسم «للوالدين»؟</h2>
     <p>اضغط «للوالدين» في القائمة السفلية واكتب الأرقام الثلاثة المكتوبة بالحروف كأرقام. هذه بوابة الوالدين — تحمي الإعدادات والمشتريات من الضغطات العشوائية للأطفال. بعد اجتيازها يبقى القسم مفتوحًا 5 دقائق.</p>
     <h2>كيف أضيف اسم طفلي إلى الحكايات؟</h2>
     <p>«للوالدين» ← «إضافة طفل». أدخل الاسم والجنس والعمر، واختر صورة — وسيُحيّي التطبيقُ طفلَك باسمه، ولكلّ طفلٍ مكافآتُه الخاصّة. يمكنك كتابة الاسم بالعربية في حقل خاص.</p>
     <h2>هل تعمل الحكايات والشاشة مقفلة؟</h2>
-    <p>نعم. اضغط «استمع» في الحكاية — تتقلّب الصفحات وحدها، وتظهر على شاشة القفل صورة الغلاف وشريط التقدّم وأزرار الإيقاف والتقديم. القراءة الصوتية بالعربية قادمة قريبًا.</p>
+    <p>نعم. اضغط «استمع» في الحكاية — تتقلّب الصفحات وحدها، وتظهر على شاشة القفل صورة الغلاف وشريط التقدّم وأزرار الإيقاف والتقديم.</p>
     <h2>هل أحتاج إلى الإنترنت؟</h2>
     <p>لا. كل الحكايات والرسوم والأصوات موجودة داخل التطبيق وتعمل في الطريق وفي الطائرة.</p>
     <h2>كيف أدير الاشتراك أو ألغيه؟</h2>
-    <p>تتولّى Apple الاشتراكات. يمكنك الإلغاء أو التغيير من إعدادات iPhone ← [اسمك] ← الاشتراكات ← LeReMi. بعد إعادة التثبيت أو تغيير الهاتف، اضغط «استعادة المشتريات» في قسم «للوالدين».</p>
+    <p>تتولّى Apple الاشتراكات. يمكنك الإلغاء أو التغيير من «الإعدادات» ← [اسمك] ← «الاشتراكات» ← LeReMi. بعد إعادة التثبيت أو تغيير الهاتف، اضغط «استعادة المشتريات» في قسم «للوالدين».</p>
     <h2>كيف أحذف بياناتي؟</h2>
     <p>كل البيانات محفوظة على جهازك فقط. احذف الملف من قسم «للوالدين» أو احذف التطبيق. التفاصيل في <a href="privacy.html?lang=ar">سياسة الخصوصية</a>.</p>
+  </section>
+
+  <section data-l="es">
+    <h1>Ayuda de LeReMi</h1>
+    <p class="muted">Cuentos para dormir para niños menores de 6 años. Respondemos en 1 o 2 días hábiles.</p>
+    <div class="box">Escríbenos: <a href="mailto:leremi.stories@gmail.com">leremi.stories@gmail.com</a></div>
+
+    <h2>¿Cómo abro la sección Papás?</h2>
+    <p>Toca «Papás» en el menú de abajo y escribe en cifras los tres números escritos con letras. Este control parental protege los ajustes y las compras de los toques de los más pequeños. Una vez superado, la sección queda abierta 5 minutos.</p>
+
+    <h2>¿Cómo pongo el nombre de mi hijo en los cuentos?</h2>
+    <p>Papás → «Agregar un niño». Escribe el nombre, el género y la edad y elige un avatar: la app saludará a tu hijo o hija por su nombre, y cada niño tiene sus propias recompensas.</p>
+
+    <h2>¿Los cuentos suenan con la pantalla bloqueada?</h2>
+    <p>Sí. Toca «Escuchar» en un cuento: las páginas pasan solas y la pantalla bloqueada muestra la portada, una barra de avance y botones de pausa y para avanzar.</p>
+
+    <h2>¿Necesito internet?</h2>
+    <p>No. Todos los cuentos, las ilustraciones y la narración están dentro de la app y funcionan en el avión o en la carretera.</p>
+
+    <h2>¿Cómo administro o cancelo la suscripción?</h2>
+    <p>Las suscripciones las gestiona Apple. Cancélala o cámbiala en Configuración → [tu nombre] → Suscripciones → LeReMi. Si reinstalaste la app o cambiaste de teléfono, toca «Restaurar compras» en la sección Papás.</p>
+
+    <h2>¿Cómo borro mis datos?</h2>
+    <p>Todos los datos se guardan solo en tu dispositivo. Borra un perfil en la sección Papás o elimina la app. Más información en la <a href="privacy.html?lang=es">política de privacidad</a>.</p>
   </section>
 </main>
 <script>
@@ -102,7 +127,7 @@
     document.querySelectorAll('[data-set]').forEach(b => b.setAttribute('aria-pressed', b.dataset.set === l)); };
   document.querySelectorAll('[data-set]').forEach(b => b.onclick = () => set(b.dataset.set));
   const q = new URLSearchParams(location.search).get('lang') || (navigator.language || 'ru').slice(0, 2);
-  set(['ru','en','ar'].includes(q) ? q : 'ru');
+  set(['ru','en','ar','es'].includes(q) ? q : 'en');
 </script>
 </body>
 </html>
